@@ -1,0 +1,78 @@
+/* colors
+ * dark-blue #2C3E50
+ * red #E74C3C
+ * off-white #ECF0F1
+ * light-blue #3498D8
+ * medium-blue #2980B9
+ */
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.top-spacing-4 {
+  padding-top: 4em;
+}
+
+input {
+  margin: 1em 0 !important;
+}
+
+.red {
+  background-color: rgb(252, 63, 73);
+}
+
+.light-blue {
+  background-color: rgb(109, 188, 219);
+}
+
+.dark-blue {
+  background-color: rgb(44, 62, 80);
+}
+
+.tab-bar .tab.active {
+  width: 48%;
+}
+
+.tab-bar .tab {
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #ddd;
+  border: none;
+  outline: none;
+  font-size: 20pt;
+  padding: 0;
+  text-align: center;
+  width: 26%;
+  height: 3em;
+  font-weight: bold;
+  line-height: 3em;
+  cursor: default;
+}
+
+.tab-view {
+  padding: 1em;
+  margin: 0;
+  font-size: 40pt;
+  text-align: center;
+}
+
+.tab-view h2 {
+
+}
+
+.tab-bar {
+  padding: 0;
+  margin: 0;
+}
+
+
